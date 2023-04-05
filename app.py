@@ -13,6 +13,8 @@ def fetch_poster(movie_id):
     full_path = "https://image.tmdb.org/t/p/w500/" + poster_path
     return full_path
 
+# function to recommend the movie
+
 
 def recommend(movie):
     movie_index = movies[movies['original_title'] == movie].index[0]
